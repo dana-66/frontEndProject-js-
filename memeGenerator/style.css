@@ -1,0 +1,67 @@
+* {
+    background-color: #000;
+    color: #55fd2b;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#main>h3 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 5px 2px 1px #136ed4, -4px 4px 4px #c7b655;
+
+}
+
+.imgContainer {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 1px #c7b6558b;
+    -webkit-box-shadow: 0px 0px 10px 1px #b0c75599;
+    -moz-box-shadow: 0px 0px 10px 1px #c7b655;
+}
+
+
+
+
+.nextMeme {
+    background-color: #0e80ff;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: rgb(183 178 18 / 58%) 0px 3px 0px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 18px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.nextMeme:hover {
+    background-color: #c7b655;
+}
+
+.nextMeme:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+.nextMeme>span {
+    background-color: transparent;
+    color: #f3fd2b;
+}
+
+@media (min-width: 768px) {
+    .nextMeme {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
